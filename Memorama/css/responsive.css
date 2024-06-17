@@ -31,3 +31,16 @@ img {
 .input{
     display: none;
 }
+
+@media screen and (max-width: 768px) {
+    .boxes {
+        width: 80%;
+    }
+    .card {
+        width: 20vw;
+        height: 20vw;
+    }
+    main {
+        overflow: hidden;
+    }
+}

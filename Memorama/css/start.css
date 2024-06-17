@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow: hidden;
+}
+
 img {
   user-select: none;
 }
@@ -29,7 +33,6 @@ input {
   height: 120%;
   z-index: 20;
   backdrop-filter: blur(0.85rem);
-	-webkit-backdrop-filter: blur(0.85rem);
   background: rgba(255, 255, 255, 0.2);
 }
 
