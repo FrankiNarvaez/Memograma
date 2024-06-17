@@ -4,6 +4,7 @@
   width: 100vw;
   top: 12%;
   justify-content: center;
+  z-index: 30;
 }
 
 @media screen and (max-width: 500px) {
